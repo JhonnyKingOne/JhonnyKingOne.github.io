@@ -1,54 +1,14 @@
 title: Jhonny King
-description: 软件开发者 | 分享技术、笔记与生活
+description: 软件开发者 | 技术笔记 · 项目分享 · 生活记录
 github_username: JhonnyKingOne
+layout: sidebar
+style: light
 
-# 布局与样式
-layout: sidebar        # 推荐 sidebar（带侧边栏），也可改 stacked（单栏）
-style: light           # light 或 dark
-
-# 插件（保持原样即可）
-plugins:
-  - jekyll-octicons
-  - jekyll-github-metadata
-  - jemoji
-
-# 博客文章 URL 格式（推荐）
-permalink: /:year/:month/:day/:title/
-
-# 默认文章布局
-defaults:
-  -
-    scope:
-      path: "" 
-      type: "posts"
-    values:
-      layout: "post"
-
-# 项目展示配置（你的设置很好）
-projects:
-  sort_by: pushed
-  limit: 9
-  exclude:
-    archived: false
-    forks: true
-    # projects:
-    #   - repo-name-to-exclude
-
-# 兴趣标签（你可以继续加）
-topics:
-  - name: CSS
-    web_url: https://github.com/topics/css
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/css/css.png
-  - name: Web design
-  - name: Sass
-    web_url: https://github.com/topics/sass
-    image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/sass/sass.png
-
-# 社交媒体（去掉 # 号后填你的账号）
-# social_media:
-#   twitter: JhonnyKingOne
-#   linkedin: your-linkedin
-#   github: JhonnyKingOne
-#   telegram: your-telegram
-#   website: https://your-website.com
-#   youtube: your-channel
+# 社交链接（去掉前面的 # 号即可生效）
+social_media:
+  github: JhonnyKingOne
+  # twitter: your_twitter
+  # linkedin: your_linkedin
+  # telegram: your_telegram
+  # website: https://your-other-site.com
+  # youtube: your_channel
